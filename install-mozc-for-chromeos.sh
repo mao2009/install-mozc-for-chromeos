@@ -1,4 +1,4 @@
-apt update && upgrade -y
+apt update && apt upgrade -y
 
 apt install task-japanese locales-all fonts-noto-cjk -y
 
@@ -15,4 +15,4 @@ XMODIFIERS=@im=fcitx
 GDK_BACKEND=x11
 EOF'
 
-echo "/usr/bin/fcitx-autostart" >> ~/.sommelierrc
+echo '/usr/bin/fcitx-autosta' >> '$HOME/.sommelierrc'
