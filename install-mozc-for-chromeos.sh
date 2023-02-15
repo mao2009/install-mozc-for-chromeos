@@ -8,11 +8,11 @@ source /etc/default/locale
 
 apt install fcitx-mozc -y
 
+echo '/usr/bin/fcitx-autostart' >> $HOME/.sommelierrc
+
 sh -c 'cat <<EOF>>/etc/environment.d/fcitx.conf
 GTK_IM_MODULE=fcitx
 QT_IM_MODULE=fcitx
 XMODIFIERS=@im=fcitx
 GDK_BACKEND=x11
 EOF'
-
-echo '/usr/bin/fcitx-autosta' >> $HOME/.sommelierrc
