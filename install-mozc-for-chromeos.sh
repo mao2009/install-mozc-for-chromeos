@@ -15,4 +15,4 @@ XMODIFIERS=@im=fcitx
 GDK_BACKEND=x11
 EOF'
 
-echo '/usr/bin/fcitx-autosta' >> '$HOME/.sommelierrc'
+echo '/usr/bin/fcitx-autosta' >> "$HOME/.sommelierrc"
